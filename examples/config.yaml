@@ -1,0 +1,47 @@
+page:
+  size: A4
+  orientation: portrait
+  dpi: 300
+  margin_left_mm: 22
+  margin_right_mm: 22
+  margin_top_mm: 18
+  margin_bottom_mm: 18
+  line_spacing_mm: 9
+  show_lined_paper: true
+  show_left_vertical_line: false
+
+fonts:
+  chinese_font: ../fonts/ZhiMangXing-Regular.ttf
+  english_font: ../fonts/Caveat-wght.ttf
+  math_font_hint: null
+
+text:
+  base_font_size_px: 60
+  chinese_font_size_px: 62
+  english_font_size_px: 56
+  min_font_size_px: 42
+  ink_alpha_min: 210
+  ink_alpha_max: 230
+
+math:
+  renderer: tectonic
+  base_scale: 1.16
+  inline_scale: 1.05
+  block_scale: 1.12
+  min_scale: 0.72
+  max_width_policy: shrink_then_warn
+
+jitter:
+  char_x_px: 1.9
+  char_y_px: 0.35
+  char_rotation_deg: 1.4
+  word_spacing_px: 3.4
+  line_y_px: 0.2
+  page_rotation_deg: 0.15
+  formula_rotation_deg: 0.0
+  formula_y_px: 0.0
+  formula_scale: 0.0
+
+output:
+  jpeg_quality: 95
+  keep_temp_files: false
